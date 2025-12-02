@@ -1,4 +1,4 @@
-#Image Captioning with CNN–LSTM
+# Image Captioning with CNN–LSTM
 
 This project implements an image captioning system using **TensorFlow/Keras**.
 A pretrained **CNN encoder** extracts visual features, and an **LSTM decoder** generates natural-language captions.
