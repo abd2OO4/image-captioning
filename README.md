@@ -1,23 +1,14 @@
-🖼️ Image Captioning with CNN–LSTM
+# 🖼️ Image Captioning with CNN–LSTM
 
-A simple image captioning system built using TensorFlow/Keras, combining:
+This project implements an image captioning system using **TensorFlow/Keras**.
+A pretrained **CNN encoder** extracts visual features, and an **LSTM decoder** generates natural-language captions.
+A simple **Streamlit UI** is included (Attached in another repo) for easy inference and testing.
 
-CNN Encoder (DenseNet / InceptionV3)
+## ✨ Features
 
-LSTM Decoder
-
-Tokenizer-based text generation
-
-Streamlit UI for easier access
-
-This project takes an input image and generates a caption based on its visual content.
-
-🚀 Features: 
-
-Extracts image features using a pretrained CNN
-
-Generates captions using an LSTM decoder
-
-Supports single-image caption generation
-
-Fully compatible with the Flickr8K dataset
+* Image feature extraction using a pretrained CNN (DenseNet)
+* Caption generation using an LSTM decoder
+* Single-image caption generation
+* Fully compatible with the Flickr8k dataset
+  
+---
